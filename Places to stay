@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Cork</title>
+<style type="text/css">
+@import url("webfonts/PTSansBold/stylesheet.css");
+
+h1 {
+	color: #FF0000;
+	font-family: PTSansBold;
+}
+h2 {
+	font-size: 20px;
+	color: #033e00;
+	font-family: PTSansBold;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.container {
+	padding: 10px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #336633;
+	background-color: #FFC;
+}
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<div class="container">
+<div class="hoteltoppic">
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Hotel.html">Places to stay</a></li>
+    <li><a class="MenuBarItemSubmenu" href="#">Places To visit</a>
+      <ul>
+        <li><a href="Blarney.html">Blarney</a></li>
+        <li><a href="Cobh.html">East Cork</a></li>
+        <li><a href="West Cork.html">West Cork</a></li>
+        </ul>
+      </li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+  </ul>
+</div>
+
+  <div class="MainHotel">
+    <h2>Hotels</h2>
+    
+    <div class="maritimeHotel"></div>
+    <div class="placeToStayWriting">The Maritime Hotel located in beautiful West Cork offers contemporary accommodation overlooking the breath-taking famous Bantry Bay. The Maritime Hotel has many amenities such as a large swimming pool and children’s pool, sauna, steam room, hot tub and gymnasium. <a href="http://www.discoverireland.ie/Where-To-Stay/the-maritime-hotel/71777"><em>Read More...</em></a></div>
+    
+    <div class="BlarneyGolfResort"></div>
+       <div class="placeToStayWriting"> The 4-star Blarney Hotel Golf and Spa Resort in Cork is set amongst 170 acres of beautiful wooded valleys. Blarney Golf Resort Cork boasts a stunning golf and spa resort and is located close to the historic town of Blarney in County Cork. <a href="http://www.discoverireland.ie/Where-To-Stay/blarney-golf-resort-hotel/62535"><em>Read More... </em></a></div> 
+       
+       <div class="GarryVoeHotel"></div>
+       <div class="placeToStayWriting">
+       The Garryvoe Hotel in East Cork,  is situated directly overlooking the spectacular Ballycotton Bay. It offers  luxurious bedrooms, a fine restaurant offering local seafood and a Health Club.  This beautiful area of Cork has an abundance of actives including golf courses,  fishing, water sports, quad biking, and Fota Wildlife Park. <a href="http://www.discoverireland.ie/Where-To-Stay/garryvoe-hotel/35651"><em>Read More...</em></a> </div>
+       
+       <div class="ClarionHotelCork"></div>
+       <div class="placeToStayWriting">
+       The Clarion Hotel Cork is Cork's  premier 4 Star City Centre Hotel and is superbly located overlooking Cork City&rsquo;s  famous River Lee and facing the inspired architecture of City Hall. Guests can  avail of the hotel's leisure facilities which include a swimming pool, children&rsquo;s  pool, sauna, steam room, hot tub gym and spa. <a href="http://www.discoverireland.ie/Where-To-Stay/clarion-hotel-cork/55811"><em>Read More....</em></a> </div>  
+       
+</div>
+ 
+<div class="BandB">
+  <h2>B&B </h2>
+      <div class="Towerlodgebandb"></div>
+       <div class="placeToStayWriting">This cosy B&B is located on the outskirts of the town of Mallow in North Cork. This B&B is accessible to both Cork City and Limerick City. <em><a href="http://www.discoverireland.ie/Where-To-Stay/tower-lodge-b-b/40590">Read More...</a></em></div>
+           <div class="BlackWaterCastle"></div>
+       <div class="placeToStayWriting">This spectacular B&B located in the picturesque village of Castletownroache in North Cork is steeped in history, heritage and natural beauty which all make for a memorable visit. <a href="http://www.discoverireland.ie/Where-To-Stay/blackwater-castle/88231"><em>Read More...</em></a></div>
+           <div class="KinsaleBandB"></div>
+       <div class="placeToStayWriting">This cosy and homey B&B has spectacular views of the historic and beautiful Kinsale Harbour and is just a short walk from the scenic town where many local amenities are available. <em><a href="http://www.discoverireland.ie/Where-To-Stay/danabel/40559">Read More...</a></em></div>
+           <div class="CityBandB"></div>
+       <div class="placeToStayWriting"> This large B&B is located a short distance outside Cork City Centre minutes from the English Market, Crawford Art Gallery and Cork Oprah House. <em><a href="http://www.discoverireland.ie/Where-To-Stay/higgins-b-b/40464">Read More...</a></em></div>
+       
+</div>
+  <div class="Sitemap">
+   <div class="LINKSTOGETHERSitemap">
+<div class="SitemapSep"><strong>Home</strong><br /> 
+  <a href="index.html">Home</a></div>
+<div class="SitemapSep">
+<strong>Places To Stay</strong><br />
+<a href="Hotel.html">Hotels</a><br />
+<a href="Hotel.html">B&B</a> </div>
+<div class="SitemapSep"><strong>Places To Visit</strong><br />
+  <a href="Blarney.html">Blarney</a><br />
+  <a href="West Cork.html">West Cork</a><br />
+  <a href="Cobh.html">East Cork</a></div>
+<div class="SitemapSep"><strong>Contact Us</strong> <br />
+  <a href="ContactUs.html">Contact Us</a></div>
+   </div> 
+  </div>
+<p class="copyright">Copyright Colman O Reilly January 2013  </p>
+  
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
