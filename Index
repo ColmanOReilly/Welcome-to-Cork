@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Cork</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script>
+function swap(imgnum) 
+   { if (imgnum==1)
+	{document.image1.src='IMGS/Photo4.jpg';
+	}
+   else if (imgnum==2)
+	{ document.image1.src='IMGS/Photo2.jpg';
+	}
+   else if (imgnum==3)
+	{ document.image1.src='IMGS/Photo3.jpg';
+	}
+   else if (imgnum==4)
+	{ document.image1.src='IMGS/Photo1.jpg';
+	}
+   else if (imgnum==5)
+	{ document.image1.src='IMGS/Photo5.jpg';
+	}
+	
+}
+</script>
+<style type="text/css">
+@import url("webfonts/PTSansBold/stylesheet.css");
+
+h1 {
+	color: #993300;
+	font-family: PTSansBold;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+h2 {
+	font-size: 20px;
+	color: #033e00;
+	font-family: PTSansBold;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.container {
+	padding: 10px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000000;
+	background-color: #FFFFCC;
+	background-repeat: repeat;
+	background-image: none;
+}
+
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<div class="container"><div class="slide">
+    <img src="IMGS/Welcome.jpg" width="800" height="100">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a href="index.html">Home</a>      </li>
+      <li><a href="Hotel.html">places to stay</a></li>
+      <li><a class="MenuBarItemSubmenu" href="#">Places To visit</a>
+        <ul>
+          <li><a href="Blarney.html">Blarney</a>          </li>
+          <li><a href="Cobh.html">East Cork</a></li>
+          <li><a href="West Cork.html">West Cork</a></li>
+        </ul>
+      </li>
+      <li><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+<img src="IMGS/Photo1.jpg" width="900" height="350" name="image1" />
+ 
+  <p><a href="javascript:swap(1);">1 </a>| 
+    <a href="javascript:swap(2);">2 </a>|
+    <a href="javascript:swap(3);">3 </a>|
+    <a href="javascript:swap(4);">4 </a>|
+    <a href="javascript:swap(5);">5 </a>   </div>
+ 
+ 
+ <div class="LINKSTOGETHER">
+  <div class="Hotelpart">
+  <h1>Accommodation  </h1>
+  <div class="HotelImg">
+      </div>
+    <div class="HotelWriting">
+      While your experiencing to wonderful sights or Cork city and  county, while not rest and stay in the wide variety of Hotels and B&amp;B that  Cork has to offer. <a href="Hotel.html"><em>See More… </em></a> </div>
+  </div>
+    
+    <div class="Hotelpart"><h1>Blarney </h1>
+      <div class="Blarney">
+  </div>
+      <div class="HotelWriting">
+      The historic village of Blarney situated just 8km from Cork City is set in beautiful wooded countryside and is an ideal base to visit the many wonderful sights of Cork. <a href="Blarney.html"><em>Read More... </em></a> </div>
+    </div>
+    
+    
+    <div class="Hotelpart"><h1>West Cork</h1>
+      <div class="WestCorkImg">
+  </div>
+      <div class="HotelWriting">
+      Festooned with little ports, bays, inlets and harbours, West Cork provides the perfect getaway. West Cork boasts beautiful scenery and is popular with visitors.<a href="West Cork.html"> <em>Read More...</em></a> </div>
+    </div>
+</div>
+
+<div class="NewLinkTogether">
+  <div class="CobhImg"><h1>East Cork </h1>
+      <div class="CobhImgpic">
+  </div>
+      <div class="HotelWriting">
+      Cobh is a pleasant waterside town consisting of pretty cottages and narrow streets which climb the steep slope of a hill, the top of which boasts the breath-taking St. Coleman's Cathedral. <a href="Cobh.html"><em>Read More...</em></a>
+      </div>
+    </div>
+</div> 
+
+
+  <div class="Sitemap">
+   <div class="LINKSTOGETHERSitemap">
+<div class="SitemapSep"><strong>Home</strong><br /> 
+  <a href="index.html">Home</a></div>
+<div class="SitemapSep">
+<strong>Places To Stay</strong><br />
+<a href="Hotel.html">Hotels</a><br />
+<a href="Hotel.html">B&B</a> </div>
+<div class="SitemapSep"><strong>Places To Visit</strong><br />
+  <a href="Blarney.html">Blarney</a><br />
+  <a href="West Cork.html">West Cork</a><br />
+  <a href="Cobh.html">East Cork</a></div>
+<div class="SitemapSep"><strong>Contact Us</strong> <br />
+  <a href="ContactUs.html">Contact Us</a></div>
+   </div> 
+  </div>
+<p class="copyright">Copyright Colman O Reilly January 2013 </p>
+
+  
+</div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
